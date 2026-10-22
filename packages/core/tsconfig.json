@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "paths": {
+      "@forgeq/postgres": ["../postgres/src"]
+    }
+  },
+  "include": ["src"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@forgeq/example-node",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "producer": "ts-node src/producer.ts",
+    "worker": "ts-node src/worker.ts"
+  },
+  "dependencies": {
+    "@forgeq/core": "*",
+    "@forgeq/postgres": "*"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}

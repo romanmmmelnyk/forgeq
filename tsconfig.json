@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "lib": ["ES2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "composite": true,
+    "paths": {
+      "@forgeq/postgres": ["packages/postgres/src"],
+      "@forgeq/core": ["packages/core/src"]
+    }
+  },
+  "exclude": ["node_modules", "**/dist/**"]
+}
